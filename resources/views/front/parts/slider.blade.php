@@ -1,4 +1,5 @@
-<div class="slider-area  slider-height" data-background="/assets/img/hero/h1_hero.jpg">
+{{--<div class="slider-area  slider-height" data-background="/assets/img/hero/h1_hero.jpg">--}}
+<div class="slider-area" data-background="/assets/img/hero/h1_hero.jpg">
     <div class="slider-active">
         <!-- Single Slider -->
         <div class="single-slider">

@@ -50,32 +50,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="portfolio-wrapper mb-30">
-                            <div class="portfolio-thumb small-img"  style="background-image: url(/assets/img/gallery/project_list5.png);">
-                            </div>
-                            <!-- Popup img Link -->
-                            <div class="portfolio-content">
-                                <a href="/assets/img/gallery/project_list5.png" class="img-pop-up">View Project</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6">
-                        <div class="portfolio-wrapper mb-30">
-                            <div class="portfolio-thumb small-img"  style="background-image: url(/assets/img/gallery/project_list2.png);">
-                            </div>
-                            <!-- Popup img Link -->
-                            <div class="portfolio-content">
-                                <a href="/assets/img/gallery/project_list2.png" class="img-pop-up">View Project</a>
-                            </div>
-                        </div>
-                    </div>
+
+
                 </div>
-                <div class="row justify-content-center">
-                    <div class="room-btn pt-50">
-                        <a href="services.html" class="btn">Load more</a>
-                    </div>
-                </div>
+
             </div>
         </div>
         <!-- Project Gallery End -->

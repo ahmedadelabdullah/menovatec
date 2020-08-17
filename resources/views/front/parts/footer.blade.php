@@ -64,8 +64,8 @@
             </div>
             <div class="footer-bottom">
                 <div class="row">
-                    <div class="col-xl-12 text-center">
-                        our copy writes
+                    <div class="col-xl-12 text-center text-capitalize white-color">
+                       all copyrights recirved to menovatec company 2020
                     </div>
                 </div>
             </div>

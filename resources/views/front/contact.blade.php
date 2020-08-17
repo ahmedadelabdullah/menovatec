@@ -24,7 +24,7 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <input class="form-control valid mt-5" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+                                            <input class="form-control valid mt-5" name="name" id="name" type="text"  placeholder="Enter your name" required>
 
 
                                             <div class="" style="color: red">
@@ -34,7 +34,7 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <input class="form-control valid mt-md-5" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder="Email">
+                                            <input class="form-control valid mt-md-5" name="email" id="email" type="email"  placeholder="Email" required>
 
                                             <div class="" style="color: red">
                                                 {{$errors->first('email')}}
@@ -43,7 +43,7 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <input class="form-control" name="phone" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Phone'" placeholder="Enter Phone">
+                                            <input class="form-control" name="phone" type="text"  placeholder="Enter Phone" required>
                                            <div class="" style="color: red">
                                                {{$errors->first('phone')}}
                                            </div>
@@ -53,7 +53,7 @@
 
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject">
+                                            <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject" required>
 
                                             <div class="" style="color: #ff0000">
                                                 {{$errors->first('subject')}}

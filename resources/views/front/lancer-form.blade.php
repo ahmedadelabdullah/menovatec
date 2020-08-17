@@ -22,7 +22,7 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <input class="form-control valid mt-5" name="name" type="text" placeholder = 'Enter your name'>
+                                            <input class="form-control valid mt-5" name="name" type="text" placeholder = 'Enter your name' required>
                                             <div class="" style="color: red">
                                                 {{$errors->first('name')}}
                                             </div>
@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group">
-                                            <input class="form-control valid mt-md-5" name="email" id="email" type="email"  placeholder="Email">
+                                            <input class="form-control valid mt-md-5" name="email" id="email" type="email"  placeholder="Email" required>
                                             <div class="" style="color: red">
                                                 {{$errors->first('email')}}
                                             </div>
@@ -38,7 +38,7 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <input class="form-control" name="phone" type="text"  placeholder="Phone">
+                                            <input class="form-control" name="phone" type="text"  placeholder="Phone" required>
                                             <div class="" style="color: red">
                                                 {{$errors->first('phone')}}
                                             </div>
@@ -47,7 +47,7 @@
                                     <div class="col-12">
                                         <div class="form-group">
 
-                                            <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject">
+                                            <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject" required>
                                             <div class="" style="color: red">
                                                 {{$errors->first('subject')}}
                                             </div>
@@ -57,7 +57,7 @@
 
                                     <div class="col-12 my-4">
                                         <div class="form-group">
-                                            <textarea class="form-control" name="description" id="message" cols="25" rows="5" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder=" Add some things about you"></textarea>
+                                            <textarea class="form-control" name="description" id="message" cols="25" rows="5"  placeholder=" Add some things about you" required></textarea>
                                             <div class="" style="color: red">
                                                 {{$errors->first('description')}}
                                             </div>

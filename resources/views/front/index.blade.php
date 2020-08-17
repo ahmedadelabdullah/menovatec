@@ -71,7 +71,7 @@
                     </div>
                     <div class="offset-sm-3 col-md-6">
                         <div class="form-group">
-                            <input class="form-control p-4 m-3" name="email" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" placeholder="Enter your email">
+                            <input class="form-control p-4 m-3" name="email" id="name" type="text"  placeholder="Enter your email" required>
                         </div>
                         <div class="" style="color: red;margin-left: 15px;">
                             {{$errors->first('email')}}

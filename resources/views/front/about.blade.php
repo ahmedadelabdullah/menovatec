@@ -6,9 +6,6 @@
 @endsection
 @section('content')
         <!-- Hero Area End -->
-
-
-
         <div class="about_info_area plus_padding py-4" style="margin: 110px 0">
             <div class="container">
                 <div class="row align-items-center">
@@ -25,16 +22,12 @@
 
                     <div class="col-xl-6 col-lg-6">
                         <div class="about_thumb">
-                            <img src="/assets/img/about/about.png" alt="" style="border-radius: 8px">
+                            <img src="/assets/img/about/about.png" alt="" style="border-radius: 8px;width: 100%">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-
         <!--All startups Start -->
         <div class="all-starups-area fix">
             <!-- left Contents -->
@@ -135,10 +128,5 @@
             </div>
         </div>
         <!-- Testimonial End -->
-
-
     </main>
-
-
-
 @stop
